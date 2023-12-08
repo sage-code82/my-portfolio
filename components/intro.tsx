@@ -71,10 +71,18 @@ export default function Intro() {
             transition"
           />
         </a>
-        <a className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10">
+        <a
+          className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          href="https://www.linkedin.com/in/stephen-sage-future-webdev/"
+          target="_blank"
+        >
           <BsLinkedin />
         </a>
-        <a className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10">
+        <a
+          className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          href="https://github.com/sage-code82"
+          target="_blank"
+        >
           <FaGithubSquare />
         </a>
       </motion.div>
