@@ -1,7 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { AiTwotoneTrophy } from "react-icons/ai";
 import { LuGraduationCap } from "react-icons/lu";
+import { PiCatDuotone } from "react-icons/pi";
 import pantrypetImg from "@/public/pantrypet.png";
 import blobsinspaceImg from "@/public/blobsinspace.png";
 import dndcompanionImg from "@/public/dndcompanion.png";
@@ -35,28 +35,28 @@ export const links = [
 
 export const upcomingData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Shatterpoint League",
+    location: "MERN Fullstack",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "A league table website for my friends and I, for the Tabletop game Shatterpoint.  Enter scores, generate fixtures and submit teams for stats.",
+    icon: React.createElement(AiTwotoneTrophy),
+    date: "December 2023",
+  },
+  {
+    title: "Your Empire Needs You!",
+    location: "React + Next.js + Tailwind",
+    description:
+      "A fun website I will be putting together, a recruitment website for the Empire.  After all they are the good guys!",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "December 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "FreshPet",
+    location: "MERN Fullstack",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Upgrading my first ever project to see what I can achieve when I combine the fullstack with the original concept.",
+    icon: React.createElement(PiCatDuotone),
+    date: "January 2024",
   },
 ] as const;
 

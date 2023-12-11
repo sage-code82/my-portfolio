@@ -13,13 +13,9 @@ import { useInView } from "react-intersection-observer";
 export default function Upcoming() {
   const { ref } = useSectionInView("Upcoming");
   return (
-    <section
-      ref={ref}
-      id="upcoming"
-      className="mb-28 max-w-[45rem] scroll-mt-28 text-center leading-8 sm:mb-40"
-    >
+    <section ref={ref} id="upcoming" className="scroll-mt-28 mb-28 sm:mb-40 ">
       <SectionHeading>Upcoming projects</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor="#708090">
         {upcomingData.map((item, index) => {
           const { ref, inView } = useInView({
             triggerOnce: true,
