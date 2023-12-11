@@ -33,7 +33,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const upcomingData = [
   {
     title: "Graduated bootcamp",
     location: "Miami, FL",
