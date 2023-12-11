@@ -24,8 +24,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Upcoming",
+    hash: "#upcoming",
   },
   {
     name: "Contact",
@@ -79,7 +79,7 @@ export const projectsData = [
     title: "DnD Companion",
     description:
       "My final bootcamp project. A players companion app for the game Dungeons and Dragons. Create your character and keep an ongoing journal about your game!",
-    tags: ["MongoDB", "Express", "React", "Node.js", "Acordion", "CSS"],
+    tags: ["MongoDB", "Express", "React", "Node.js", "CSS"],
     imageUrl: dndcompanionImg,
   },
 ] as const;
@@ -98,6 +98,5 @@ export const skillsData = [
   "MongoDB",
   "Express",
   "Framer Motion",
-  "Acordion",
   "Chart.js",
 ] as const;
