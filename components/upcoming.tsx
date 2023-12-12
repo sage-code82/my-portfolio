@@ -15,7 +15,7 @@ export default function Upcoming() {
   return (
     <section ref={ref} id="upcoming" className="scroll-mt-28 mb-28 sm:mb-40 ">
       <SectionHeading>Upcoming projects</SectionHeading>
-      <VerticalTimeline lineColor="#708090">
+      <VerticalTimeline lineColor="">
         {upcomingData.map((item, index) => {
           const { ref, inView } = useInView({
             triggerOnce: true,
