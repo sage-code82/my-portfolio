@@ -71,7 +71,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full before:outline-none focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full before:outline-none focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -85,14 +85,14 @@ export default function Intro() {
           />
         </a>
         <a
-          className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10  dark:text-white/60"
           href="https://www.linkedin.com/in/stephen-sage-future-webdev/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full focus:scale-110  hover:bg-slate-300 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10  dark:text-white/60"
           href="https://github.com/sage-code82"
           target="_blank"
         >
