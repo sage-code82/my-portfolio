@@ -14,7 +14,7 @@ export default function Home() {
         <title>Your Home Page Title</title>
         <meta property="og:title" content="Your Home Page Title" />
         <meta property="og:description" content="Your home page description." />
-        <meta property="og:image" content="/public/link_pic.png" />
+        <meta property="og:image" content="/link_pic.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Your Home Page Title" />
@@ -22,7 +22,7 @@ export default function Home() {
           name="twitter:description"
           content="Your home page description."
         />
-        <meta name="twitter:image" content="/public/link_pic.png" />
+        <meta name="twitter:image" content="/link_pic.png" />
       </Head>
       <Intro />
       <SectionDivider />
