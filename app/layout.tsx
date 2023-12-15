@@ -1,3 +1,4 @@
+import Head from "next/head";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -21,8 +22,37 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const ogImageUrl = "/public/link_pic.png";
   return (
     <html lang="en" className="!scroll-smooth">
+      <Head>
+        {/* Facebook Open Graph */}
+        <meta
+          property="og:url"
+          content="https://stephen-sage-portfolio-nobeefjustpartys-projects.vercel.app/"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Stephen Sage | Personal Portfolio" />
+        <meta
+          property="og:description"
+          content="Stephen is a new to the world of tech and looking for the next step in his career "
+        />
+        <meta property="og:image" content={ogImageUrl} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta property="og:title" content="Stephen Sage | Personal Portfolio" />
+        <meta
+          property="og:description"
+          content="Stephen is a new to the world of tech and looking for the next step in his career "
+        />
+        <meta property="og:image" content={ogImageUrl} />
+        <meta
+          property="og:url"
+          content="https://stephen-sage-portfolio-nobeefjustpartys-projects.vercel.app/"
+        />
+        <meta property="og:type" content="website" />
+      </Head>
       <body
         className={`${inter.className} bg-slate-50 text-slate-950 relative pt-28 sm:pt-28 dark:bg-slate-900 dark:text-slate-50 dark:text-opacity-90`}
       >
