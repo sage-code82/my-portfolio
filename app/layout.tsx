@@ -26,7 +26,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <Head>
-        {/* Facebook Open Graph */}
         <meta
           property="og:url"
           content="https://stephen-sage-portfolio-nobeefjustpartys-projects.vercel.app/"
