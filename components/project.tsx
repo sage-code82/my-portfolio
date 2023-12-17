@@ -64,7 +64,7 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
           onClick={() => {
-            window.open(`https://github.com/${githubUrl}`, "_blank");
+            window.open(`${githubUrl}`, "_blank");
           }}
         />
       </section>
