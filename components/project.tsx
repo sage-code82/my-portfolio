@@ -10,6 +10,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  githubUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -62,6 +63,9 @@ export default function Project({
         group-even:group-hover:rotate-2
 
         group-even:right-[initial] group-even:-left-40"
+          onClick={() => {
+            window.open(`https://github.com/${githubUrl}`, "_blank");
+          }}
         />
       </section>
     </motion.div>
