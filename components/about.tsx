@@ -38,7 +38,7 @@ export default function About() {
         <span className="italic">When I am not coding</span>, you will find me
         immersed in tabletop gaming and various hobby-related activities. I am
         passionate about continual learning, currently delving into{" "}
-        <span className="font-medium">AI and prompt engineering</span>. I&aposve
+        <span className="font-medium">AI and prompt engineering</span>. I have
         also explored content creation through my blogs and a YouTube channel,
         experimenting with sharing my insights and experiences.
       </p>
