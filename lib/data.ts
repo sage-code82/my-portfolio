@@ -47,7 +47,7 @@ export const upcomingData = [
     title: "Your Emperor Needs You!",
     location: "React + Next.js + Tailwind",
     description:
-      "A fun website I will be putting together, a recruitment website for the Imerium.  After all they are the good guys!",
+      "A fun website I will be putting together, a recruitment website for the Imperium.  After all they are the good guys!",
     icon: React.createElement(LuGraduationCap),
     date: "December 2023",
   },
