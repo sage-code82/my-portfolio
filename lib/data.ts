@@ -36,18 +36,18 @@ export const links = [
 
 export const upcomingData = [
   {
-    title: "Shatterpoint League",
+    title: "Tournament APP",
     location: "MERN Fullstack",
     description:
-      "A league table website for my friends and I, for the Tabletop game Shatterpoint.  Enter scores, generate fixtures and submit teams for stats.",
+      "A tournament website which will be used for my friends and I for the tabletop game Shatterpoint.  Organise fixtures and rounds, grab the braggin rites!",
     icon: React.createElement(AiTwotoneTrophy),
     date: "December 2023",
   },
   {
-    title: "Your Empire Needs You!",
+    title: "Your Emperor Needs You!",
     location: "React + Next.js + Tailwind",
     description:
-      "A fun website I will be putting together, a recruitment website for the Empire.  After all they are the good guys!",
+      "A fun website I will be putting together, a recruitment website for the Imerium.  After all they are the good guys!",
     icon: React.createElement(LuGraduationCap),
     date: "December 2023",
   },
