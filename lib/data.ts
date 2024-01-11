@@ -36,20 +36,19 @@ export const links = [
 
 export const upcomingData = [
   {
-    title: "Tournament APP",
+    title: "NoBeefJustParty Blog",
     location: "MERN Fullstack",
-    description:
-      "A tournament website which will be used for my friends and I for the tabletop game Shatterpoint.  Organise fixtures and rounds, grab the braggin rites!",
+    description: "A blog!  What about still not 100% sure yet! ",
     icon: React.createElement(AiTwotoneTrophy),
-    date: "December 2023",
+    date: "Started 11th January 2023",
   },
   {
-    title: "Your Emperor Needs You!",
-    location: "React + Next.js + Tailwind",
+    title: "Learning AWS",
+    location: "AWS",
     description:
-      "A fun website I will be putting together, a recruitment website for the Imperium.  After all they are the good guys!",
+      "I missed out on working for one of my big 5 due to my lack of knowledge on this subject.",
     icon: React.createElement(LuGraduationCap),
-    date: "December 2023",
+    date: "February 2024",
   },
   {
     title: "FreshPet",
@@ -57,7 +56,7 @@ export const upcomingData = [
     description:
       "Upgrading my first ever project to see what I can achieve when I combine the fullstack with the original concept.",
     icon: React.createElement(PiCatDuotone),
-    date: "January 2024",
+    date: "February 2024",
   },
   {
     title: "Learning Python",
@@ -65,7 +64,7 @@ export const upcomingData = [
     description:
       "Self teaching myself Python with the help of FreeCodeAcademy and YouTube tutorials",
     icon: React.createElement(TbBrandPython),
-    date: "January 2024",
+    date: "February 2024",
   },
 ] as const;
 
