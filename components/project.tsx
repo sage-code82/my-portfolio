@@ -45,6 +45,14 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <button
+            className="mt-4 bg-blue-500 text-white px-3 py-1 rounded-md hover:bg-blue-600 transition"
+            onClick={() => {
+              window.open(`${githubUrl}`, "_blank");
+            }}
+          >
+            View on GitHub
+          </button>
         </div>
 
         <Image

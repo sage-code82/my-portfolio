@@ -37,7 +37,7 @@ export const links = [
 export const upcomingData = [
   {
     title: "NoBeefJustParty Blog",
-    location: "MERN Fullstack",
+    location: "Next.js and Content Layer",
     description: "A blog!  What about still not 100% sure yet! ",
     icon: React.createElement(AiTwotoneTrophy),
     date: "Started 11th January 2023",
@@ -88,7 +88,7 @@ export const projectsData = [
   {
     title: "DnD Companion",
     description:
-      "My final bootcamp project. A players companion app for the game Dungeons and Dragons. Create your character and keep an ongoing journal about your game!",
+      "A players companion app for the game Dungeons and Dragons. Create your character and keep an ongoing journal about your game!",
     tags: ["MongoDB", "Express", "React", "Node.js", "CSS"],
     imageUrl: dndcompanionImg,
     githubUrl: "https://github.com/MannyGGB/dnd-companion",
